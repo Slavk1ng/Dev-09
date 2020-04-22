@@ -1,0 +1,49 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+  font-size: 3.5rem;
+  }
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-color: #F3E5F5;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-primary {
+  background-color: #42A5F5;
+  color: black;
+}
+
+#textOutput{
+  color: #D500F9;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 26px;
+}
