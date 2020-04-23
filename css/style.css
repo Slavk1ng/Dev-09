@@ -28,7 +28,7 @@ body {
 .column {
   float: right;
   width: 40%;
-  padding: 8px;
+  padding: 12px;
 }
 
 .row:after {
@@ -38,7 +38,7 @@ body {
 }
 
 .btn-primary {
-  background-color: #42A5F5;
+  background-color: #f55142;
   color: black;
 }
 
