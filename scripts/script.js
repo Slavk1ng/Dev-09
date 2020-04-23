@@ -1,18 +1,21 @@
 $(function () {
   console.log("ready!");
  
-//if the user clicks on the send button
+//when the user clicks on our button
  $('#sender').on('click', function (e) {
 e.preventDefault();
 var getInput = $('#textInput').val(); 
-//outputs the text onto the other column
+   
+//send the text over and output it on the other column
 $('#textOutput').append('<p>'+getInput+'</p>');
-//clears the input box
+   
+//wipes the box so it can take more input
 $('#textInput').val(''); 
 });
 });
 
-//if the user hits 'enter', same thing as above
+//If we hit enter then the same thing will happen
+
 $('#textInput').keypress(function (e) {
   if (e.which == 13) {
     var getInput = $('#textInput').val(); 
@@ -22,11 +25,11 @@ $('#textInput').keypress(function (e) {
   }
 });
 
-//if the user clicks the clear button
-$('#clear').on('click', function (e) {
+//when the user clicks the wipe out buton
+$('#wipe').on('click', function (e) {
   e.preventDefault();
-  //clear output column
+  //wipes our output column
   $('#textOutput').text(''); 
-  //clear input box
+  //wipes input box
   $('#textInput').val('');
 });
