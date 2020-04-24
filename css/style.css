@@ -1,0 +1,49 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+  font-size: 4.0rem;
+  }
+}
+
+body {
+  padding-top: 4.0rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-color: ;
+}
+
+.column {
+  float: right;
+  width: 40%;
+  padding: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-primary {
+  background-color: #00FFFF;
+  
+}
+
+#textOutput{
+  color: #006400;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
